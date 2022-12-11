@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form onsubmit="return guardaDados()">
+    <div class="formDiv">
+      <label for="nomeF">Nome</label>
+      <input type="text" name="nomeF" id="NomeF" placeholder="Digite o seu nome">
+    </div>
+
+    <div class="formDiv">
+      <label for="cargoF">Cargo</label>
+      <input type="text" name="cargoF" id="cargoF" placeholder="Digite o seu cargo">
+    </div>
+
+    <div class="formDiv">
+      <label for="salarioF">Salário</label>
+      <input type="text" name="salarioF" id="salarioF" placeholder="Digite o seu salário">
+    </div>
+
+    <div class="formDiv">
+      <label for="secaoF">Seção</label>
+      <select name="secaoF" id="secaoF">
+        <option value="RH">RH</option>
+        <option value="Limpeza">Limpeza</option>
+        <option value="Desenvolvimento">Desenvolvimento</option>
+      </select>
+    </div>
+    <input type="submit" class="formDiv">
+  </form>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
